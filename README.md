@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="koe" width="880"></p>
+
 <p align="center">
 <a href="https://github.com/nari-labs/dia">
 <img src="./dia/static/images/banner.png">
