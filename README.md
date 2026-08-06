@@ -1,6 +1,5 @@
 <p align="center"><img src=".github/hero.svg" alt="koe" width="880"></p>
 
-> Forked from [nari-labs/dia](https://github.com/nari-labs/dia) (Apache-2.0).
 
 <p align="center">
 <a href="https://github.com/nari-labs/dia">
