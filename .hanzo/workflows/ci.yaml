@@ -1,13 +1,16 @@
 name: Continuous Integration
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
 
 jobs:
   lint_and_format:
-    runs-on: ubuntu-latest
+    runs-on: hanzo-build-linux-amd64
     name: Lint and Format
     steps:
       - uses: actions/checkout@v4
