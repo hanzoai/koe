@@ -1,0 +1,12 @@
+# hanzo-inc/koe — read by the hanzoai/ci reusable (.hanzo/workflows/cicd.yml)
+# and by platform.hanzo.ai.
+#
+# Koe is Hanzo's voice & dialogue synthesis SKU (`koe`, `koe-1`), served by
+# hanzo-inc/zen and declared in hanzo/universe charts/app/files/zen/catalog.yaml.
+test:
+  - name: validate
+    run: |
+      set -e
+      test -s README.md
+      test -s LLM.md
+      python3 -m py_compile cli.py app.py
