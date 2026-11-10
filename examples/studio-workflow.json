@@ -1,0 +1,14 @@
+{
+  "name": "Koe (\u58f0) Studio Workflow",
+  "description": "Hanzo Creative AI Voice & Speech Model (`koe` / `/v1/audio/voice`)",
+  "steps": [
+    {
+      "id": "koe-step-1",
+      "kind": "voice.speak",
+      "model": "koe",
+      "input": {
+        "input": "Describe the change. Hanzo Dev ships it to production."
+      }
+    }
+  ]
+}
