@@ -30,6 +30,8 @@ We also provide a [demo page](https://yummy-fir-7a4.notion.site/dia) comparing o
 
 ## Generation Guidelines
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/koe&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/koe&ref=main&action=edit) [![Deploy with Hanzo](https://hanzo.app/badges/deploy-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/koe&ref=main&action=deploy)
+
 - Keep input text length moderate 
     - Short input (corresponding to under 5s of audio) will sound unnatural
     - Very long input (corresponding to over 20s of audio) will make the speech unnaturally fast.
